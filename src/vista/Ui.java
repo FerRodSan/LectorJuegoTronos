@@ -52,10 +52,9 @@ public class Ui extends JFrame {
 		setContentPane(contentPane);
 
 		/**
-		 * INTENTO de marca de agua. La imagen no hay manera de ponerla translucida para
-		 * que el texto se pueda ver tras ella.
+		 * MARCA DE AGUA
 		 */
-		ImageIcon imagen = new ImageIcon("src/img/trono2.png");
+		ImageIcon imagen = new ImageIcon("src/img/trono2 (1).png");
 		lblImagen = new JLabel(imagen);
 		lblImagen.setSize(new Dimension(300, 500));
 		lblImagen.setHorizontalTextPosition(SwingConstants.CENTER);
